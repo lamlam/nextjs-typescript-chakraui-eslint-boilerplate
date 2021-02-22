@@ -37,7 +37,10 @@
     }
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "*.{ts,tsx}": "eslint --cache --fix"
+    "!(*.{ts,tsx})": "prettier --write --ignore-unknown",
+    "*.{ts,tsx}": [
+      "prettier --write --ignore-unknown",
+      "eslint --cache --fix"
+    ]
   }
 }
