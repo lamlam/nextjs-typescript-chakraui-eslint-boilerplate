@@ -1,5 +1,6 @@
 import { Heading } from '@chakra-ui/react';
-export default function Home() {
+import { ReactElement } from 'react';
+export default function Home(): ReactElement {
   return (
     <div>
       <Heading>Hello world</Heading>
