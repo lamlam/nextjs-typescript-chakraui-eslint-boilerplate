@@ -5,7 +5,7 @@
 - Chakra UI
 - eslint
 - prettier
-- husky@4
+- husky
 
 ## Getting Started
 
