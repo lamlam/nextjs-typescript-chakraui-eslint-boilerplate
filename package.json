@@ -1,11 +1,12 @@
 {
-  "name": "drop24",
-  "version": "0.1.0",
+  "name": "boilerPlate",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --cache --fix --ext .jsx,.js,.tsx,.ts ."
   },
   "dependencies": {
     "@chakra-ui/react": "^1.7.3",
